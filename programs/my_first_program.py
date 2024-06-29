@@ -36,4 +36,4 @@ def enhanced_nada_main():
         Output(updated_balance2, "updated_balance2", party2),
         Output(sufficient_balance1, "sufficient_balance1", party1),
         Output(sufficient_balance2, "sufficient_balance2", party2)
-    ]
+    ] // expected_balance_check_value
